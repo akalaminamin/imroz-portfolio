@@ -141,9 +141,7 @@ a:hover {
     border: 2px solid #FD4766;
 }
 
-
 /* home menu ends */
-
 .home {
     background-image: url('../images/home/home-bg.jpg');
     background-color: #101010;
@@ -695,6 +693,5 @@ footer {
     color: #757575;
     padding-top: 15px;
 }
-
 
 /*=====END========*/
