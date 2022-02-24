@@ -718,10 +718,7 @@ footer {
 /* ============ responsive design ========*/
 /* small devices  */
 @media (max-width: 575px) {
-  .home-content h1,
-  .home-content h2 {
-    font-size: 44px;
-  }
+  
   .container {
     max-width: 575px;
   }
@@ -736,6 +733,13 @@ footer {
     font-size: 15px;
     line-height: 24px;
   }
+  .home-content h1,
+  .home-content h2 {
+    font-size: 44px;
+  }
+  .data-table{
+      width: 100%;
+  }
   .service-single-box{
       margin-top: 0;
       text-align: center;
@@ -748,3 +752,17 @@ footer {
       gap: 20px;
   }
 }
+/* tablet device */
+@media screen and (max-width: 992px) and (min-width: 576px) {
+    .section-padding{
+        padding-bottom: 40px;
+    }
+    .services{
+        padding-top: 50px;
+    }
+    .blog-items .content-title h4 a {
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
+
